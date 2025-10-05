@@ -4,17 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign in</title>
+    <style>
+        body{
+            background-color: purple;
+        }
+        #main{
+            background-color: whitesmoke;
+            border: 2px solid white;    
+            width: 300px;
+            height: 350px;
+            padding-top: 10px;
+            margin-top: 200px;
+            margin-left: 600px;
+            padding-left: 50px;
+            border-radius: 20px;
+            padding-bottom: 20px;
+        }
+        button{
+            background-color: purple;
+            color: white;
+            text-align: center;
+            /* height: 30px; */
+            width: 8rem;
+            padding: 10px;
+            margin:1rem auto ;
+            border-radius: 20px;
+            border: 5px black;
+        }
+        button:hover{
+            background-color: red;
+        }
+        a:hover{
+            color: blue;
+        }
+    </style>
 </head>
 <body>
     <div id="main">
-        <h3>Sign in to your account</h3>
+        <h2>Sign in to your account</h2>
         <form action="#">
             <p>Username</p>
             <input type="text" name="user" placeholder="Type your Name">
             <p>Password</p>
             <input type="text" name="password" placeholder="Type your password">
-            <p>Not a Member? <a>sign up</a></p>
+            <!-- <p>Not a Member?<a href="#">Sign up</a></p> -->
+             <button>Sign in</button><br>
+             <a href="#">Forget password</a><br><a style="margin-top: 15px; display: inline-block;" href="#">Don't have new account</a>
         </form>
+        <div style="text-align: center; margin-top: 25px;"><a style="padding: 10px 5px; margin-top: 10px;border: 2px green; border-radius: 20px;" href="index.html">Go Back Home</a></div>
     </div>
 </body>
 </html>
