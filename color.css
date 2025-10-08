@@ -74,3 +74,6 @@ p{
     gap: 5px; 
     width: 100%;
 }
+#result{
+    color: blue;
+}
