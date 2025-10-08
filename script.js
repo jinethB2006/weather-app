@@ -6,7 +6,7 @@ async function addweather(){
         result.innerHTML="<p style='color:red;'>Plese enter the city name</p>";
         return;
     }
-    const apikey="375add281775bdaec8244a0cc34bc9da";
+    const apikey="Your api key";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${place}&appid=${apikey}&units=metric`;
     try{
         const responce = await fetch(url);
